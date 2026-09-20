@@ -45,3 +45,6 @@ credentials.json
 # terminal transcripts dumped by the CLI (they quote whatever was pasted, including tokens)
 [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*-local-command-*.txt
 *-local-command-*.txt
+
+# Local Playground state. It can contain the states and decisions entered in the UI.
+playground/.local/

@@ -17,6 +17,12 @@ setup(
         "huggingface_hub>=0.20.0",
         "numpy>=1.20.0",
     ],
+    extras_require={
+        "playground": [
+            "fastapi>=0.115.0",
+            "uvicorn>=0.30.0",
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",

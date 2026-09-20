@@ -42,6 +42,13 @@ Three checkpoints, and a `Router` that picks between them per request:
 pip install laya
 ```
 
+### Local Apple Silicon Playground
+
+This fork includes a small local UI and CLI that both call the same Laya SDK runtime on Apple
+GPU (`mps`) and can optionally retain runs in a local SQLite database. See
+[`playground/README.md`](playground/README.md) for the local setup and
+[`fine_tune/README.md`](fine_tune/README.md) for the dataset contract and the MPS training smoke test.
+
 ---
 
 ## Quickstart: Route Mode (Recommended)
